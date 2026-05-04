@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nataniel S. Abagat | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">TAN</div>
+        <nav class="nav-links">
+            <a href="#Home" class="active">Home</a>
+            <a href="#Me">About Me</a>
+            <a href="#Educ">Education</a>
+            <a href="#Skill">Skills</a>
+            <a href="#Gallery">Gallery & Achievements</a>
+        </nav>
+        <div class="social-btn" id="socialToggleBtn">Social</div>
+    </header>
+
+    <!-- SOCIAL OVERLAY -->
+    <div id="socialOverlay" class="social-overlay">
+        <div class="social-content">
+            <span class="close-btn" id="closeOverlay">&times;</span>
+            <h2>Know more about <span class="accent">Me</span></h2>
+            <p>A collection of my digital footprints and social presence.</p>
+            <div class="social-grid">
+                <a href="https://facebook.com/yourprofile" target="_blank" class="social-card facebook">
+                    <div class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <span>Facebook</span>
+                </a>
+                <a href="https://tiktok.com/@yourprofile" target="_blank" class="social-card tiktok">
+                    <div class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <span>TikTok</span>
+                </a>
+                <a href="https://instagram.com/yourprofile" target="_blank" class="social-card instagram">
+                    <div class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HOME SECTION -->
+    <main id="Home" class="main-cont reveal">
+        <div class="content">
+            <p class="greeting">HELLO, I'M</p>
+            <h1 class="name">Nataniel S. Abagat</h1>
+            <h2 class="role"><b>BSIT STUDENT</b></h2>
+            <div class="typing-container">
+                <span id="typewriter"></span><span class="cursor">|</span>
+            </div>
+            <div class="cta-buttons">
+                <a href="#Me" style="text-decoration: none;"><button class="primary-btn">About Me</button></a>
+                <button class="secondary-btn" id="heroSocialBtn">Social</button>
+            </div>
+        </div>
+        <div class="hero-img-container">
+            <div class="hero-image-box">
+                <img class="hero-img hero-img-default" src="img/home_pic3.png"  alt="Nataniel">
+                <img class="hero-img hero-img-hover"   src="img/home_pic.png" alt="Nataniel Hover">
+            </div>
+        </div>
+    </main>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="Me" class="about-section reveal">
+        <div class="project-header">
+            <h2>About <span class="accent">Me</span></h2>
+            <p>A glimpse into my professional journey and passion.</p>
+        </div>
+        <div class="about-card">
+            <div class="about-left">
+                <div class="lanyard"></div>
+                <div id="vibeCard" class="draggable-id">
+                    <!-- ID card image — full color, no grayscale -->
+                    <img src="img/lace.jpg" alt="ID Photo" draggable="false">
+                </div>
+            </div>
+            <div class="about-right">
+                <div class="motto-container">
+                    <p class="motto">I can do all things through Christ which strengtheneth me.
+                        <br><p>Philippians 4:13</p>
+                    </p>
+                </div>
+                <div class="bio-text">
+                    <p>Hello! I’m Nataniel Harold S. Abagat, a dedicated 1st-year Bachelor of Science in Information Technology (BSIT) student at the Camarines Sur Polytechnic Colleges (CSPC)—proudly studying at the premier institution of Camarines Sur.</p>
+                    <p>As an aspiring developer, I find my rhythm in the world of code. I’m currently focused on mastering HTML and CSS, transforming abstract ideas into functional, high-contrast designs. I am also diving deeper into JavaScript to bring interactivity and life to my projects. My goal isn't just to write code, but to architect large-scale digital solutions that bridge the gap between imagination and reality. I also love the synergy of using AI as my assistant to transform my ideas into functional designs using HTML and CSS. For me, coding is about the vision and the flow, and I’m constantly learning how to use modern tools to sharpen my ability to build big projects.</p>
+                    <p>Beyond the screen and the syntax, my life is fueled by a love for storytelling and family. I grew up in a lively household with three siblings—two brothers and one sister. They are my constant support system and the reason I strive to be better every day.</p>
+                    <p>When I’m not debugging or designing, I’m a massive consumer of visual media. Whether it’s the high-stakes action of Anime, the emotional depth of KDramas, or the immersive worlds of Manga and Short Films, I’m always looking for creative inspiration. You might also find me lost in a book or testing my reflexes in Call of Duty: Mobile, Minecraft, or Genshin Impact. These hobbies aren't just distractions; they help me understand user experience and visual storytelling from a different perspective.</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat"><h3>18 yr old</h3><span>March 22, 2007</span></div>
+                    <div class="stat"><h3>1st</h3><span>Year at CSPC</span></div>
+                    <div class="stat"><h3>AI+</h3><span>Vibe Coding & Assisted Design</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="Educ" class="education-section">
+        <div class="project-header reveal">
+            <h2>Academic <span class="accent">Pathway</span></h2>
+            <p>A journey of learning from the early years to the digital frontier.</p>
+        </div>
+        <div class="timeline-container">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2025 – Present</span>
+                    <h3>BS in Information Technology</h3>
+                    <p class="school-name">Camarines Sur Polytechnic Colleges (CSPC)</p>
+                    <div class="motto-container">
+                        <p class="motto">Focusing more in networking and coding.</p>
+                        <div class="tagsEduc"><span>Dean Lister</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2023 – 2024</span>
+                    <h3>TVL – ICT Strand</h3>
+                    <p class="school-name">Nabua National High School</p>
+                    <p>Specialized in computer programming and technical vocational skills.</p>
+                    <div class="tagsEduc"><span>G11 With High Honor</span><span>G12 With Honor</span></div>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2019 – 2022</span>
+                    <h3>Junior High School</h3>
+                    <p class="school-name">san Jose Integrated School</p>
+                    <p>Developed fundamental academic skills and discovered an interest in technology.</p>
+                    <div class="tagsEduc"><span>G7-G9 With Honor</span><span>G10 With Highest Honor</span></div>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2014 – 2018</span>
+                    <h3>Elementary Education</h3>
+                    <p class="school-name">San Miguel Elem. School -  San Jose Elem. School</p>
+                    <p>The foundation of my educational journey and early milestones.</p>
+                    <div class="tagsEduc"><span>Student lang here HAHAHA</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="Skill" class="project-section">
+        <div class="project-header reveal">
+            <h2>Real Life <span class="accent">Skills</span></h2>
+            <p>The tools and languages I use to bring ideas to life.</p>
+        </div>
+        <div class="project-grid-main">
+            <div class="col-left reveal">
+                <div class="project-card large">
+                    <img src="img/coding_img.avif" alt="Web Dev" draggable="false">
+                    <div class="project-overlay">
+                        <h3>Vibe Coding</h3>
+                        <p>Specializing in HTML, CSS, and modern JavaScript practices.</p>
+                        <div class="tags"><span>HTML5</span><span>CSS3</span><span>JS</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-center reveal">
+                <div class="project-card small">
+                    <img src="img/nc2.jpg" alt="Design" draggable="false">
+                    <div class="project-overlay">
+                        <h3>CSS NC2 Passer</h3>
+                        <p>I am a certified NCII passer with proven technical skills.</p>
+                        <div class="tags"><span>Networking</span></div>
+                    </div>
+                </div>
+                <div class="project-card small">
+                    <img src="img/musician.jpeg" alt="Coding" draggable="false">
+                    <div class="project-overlay">
+                        <h3>Musician</h3>
+                        <p>I am a musician who can play various instruments</p>
+                        <div class="tags"><span>Guitar</span><span>Drum</span><span>Bass</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right reveal">
+                <div class="project-card tall">
+                    <img src="img/codm_1.jpg" alt="Dashboard" draggable="false">
+                    <div class="project-overlay">
+                        <h3>Gamer</h3>
+                        <p>I am an avid gamer with a focus on strategy.</p>
+                        <div class="tags"><span>CODM</span><span>Genshin Impact</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="Gallery" class="gallery-section reveal">
+        <div class="project-header">
+            <h2>Gallery of <span class="accent">Life</span></h2>
+            <p>Moments of achievement and personal milestones.</p>
+        </div>
+        <div class="masonry-grid">
+
+            <div class="masonry-item tall">
+                <img src="img/achievement_img1.jpg" alt="Achievement 1" draggable="false">
+                <div class="masonry-overlay">
+                    <span class="masonry-tag">Achievement</span>
+                    <h3>Major Achievement</h3>
+                    <p>1st Sem Dean Lister.</p>
+                </div>
+            </div>
+
+            <div class="masonry-item">
+                <img src="img/friend_pic2.jpeg" alt="Life 1" draggable="false">
+                <div class="masonry-overlay">
+                    <span class="masonry-tag">Life</span>
+                    <h3>Memories</h3>
+                </div>
+            </div>
+
+            <div class="masonry-item">
+                <img src="img/friend_pic1.jpeg" alt="Life 2" draggable="false">
+                <div class="masonry-overlay">
+                    <span class="masonry-tag">Life</span>
+                    <h3>Memories</h3>
+                </div>
+            </div>
+
+            <div class="masonry-item wide">
+                <img src="img/award.png" alt="Achievement 2" draggable="false">
+                <div class="masonry-overlay">
+                    <span class="masonry-tag">Award</span>
+                    <h3>Special Awards</h3>
+                    <p>Certificate of Excellency</p>
+                </div>
+            </div>
+
+            <div class="masonry-item tall">
+                <img src="img/fam_pic.jpeg" alt="Portrait" draggable="false">
+                <div class="masonry-overlay">
+                    <span class="masonry-tag">Family Picture</span>
+                    <h3>A Moment</h3>
+                </div>
+            </div>
+
+            <div class="masonry-item">
+                <img src="img/church_pic.jpg" alt="Memory" draggable="false">
+                <div class="masonry-overlay">
+                    <span class="masonry-tag">Memory</span>
+                    <h3>More Memories</h3>
+                </div>
+            </div>
+
+            <!-- 7th card — fills the empty bottom-right spot -->
+            <div class="masonry-item">
+                <img src="img/cous_pic.jpeg" alt="The Journey" draggable="false">
+                <div class="masonry-overlay">
+                    <span class="masonry-tag">Cousin</span>
+                    <h3>Memories</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
